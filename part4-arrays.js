@@ -41,7 +41,10 @@
 
 let tasks = ["laundry", "groceries", "coding", "naps"];
 
-for (let i = 0; i < tasks.length; i++) {
-  console.log(`${i + 1}. ${tasks [i]}`)
+function printTasks(tasks) {
+  for (let i = 0; i < tasks.length; i++) {
+    console.log(`${i + 1}. ${tasks [i]}`)
+  }
 }
 
+printTasks(tasks)

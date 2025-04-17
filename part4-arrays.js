@@ -1,41 +1,47 @@
-// console.log("Hello World!")
+// // console.log("Hello World!")
 
-// Problem 1: Favorite Foods
+// // Problem 1: Favorite Foods
 
-let favFoods = ["tacos", "sushi", "pizza", "pasta", "chicken"];
-console.log(favFoods);
+// let favFoods = ["tacos", "sushi", "pizza", "pasta", "chicken"];
+// console.log(favFoods);
 
-let firstFood = favFoods.at(0);
-console.log(firstFood);
+// console.log(favFoods.at(0));
 
-let lastFood = favFoods.at(4);
-console.log(lastFood);
+// console.log(favFoods.at(4));
 
-let length = favFoods.push("Watermelon");
-console.log(favFoods);
+// favFoods.push("Watermelon");
 
-// Problem 2: Guest List
+// console.log(favFoods);
 
-let guestList = [
-  "Frank",
-  "Monica",
-  "Fiona",
-  "Phillip",
-  "Ian",
-  "Debbie",
-  "Carl",
-  "Liam",
-  "Veronica",
-  "Kevin",
-  "Mickey",
-];
+// // Problem 2: Guest List
 
-guestList.shift();
+// let guestList = [
+//   "Frank",
+//   "Monica",
+//   "Fiona",
+//   "Phillip",
+//   "Ian",
+//   "Debbie",
+//   "Carl",
+//   "Liam",
+//   "Veronica",
+//   "Kevin",
+//   "Mickey",
+// ];
 
-guestList.push("Karen");
+// guestList.shift();
 
-console.log(guestList);
+// guestList.push("Karen");
 
-let guestTotal = guestList.length;
+// console.log(guestList);
 
-console.log(guestTotal);
+// console.log(guestList.length);
+
+// Problem 3: Weekend Tasks
+
+let tasks = ["laundry", "groceries", "coding", "naps"];
+
+for (let i = 0; i < tasks.length; i++) {
+  console.log(`${i + 1}. ${tasks [i]}`)
+}
+

@@ -1,5 +1,3 @@
-// console.log("Hello World!")
-
 // Problem 1: Favorite Foods
 
 let favFoods = ["tacos", "sushi", "pizza", "pasta", "chicken"];
